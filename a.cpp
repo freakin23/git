@@ -9,6 +9,6 @@ void io() {
 int main() {
     std::cout << "Hello Git" << '\n';
     io();
-    std::cout << "Now we are in Branch 1." << '\n';
+    
     return 0;
 }
