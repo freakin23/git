@@ -9,6 +9,8 @@ void io() {
 int main() {
     std::cout << "Hello Git" << '\n';
     io();
+
+    std::cout << "Hello Stash" << '\n';
     
     return 0;
 }
