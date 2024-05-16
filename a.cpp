@@ -26,11 +26,13 @@ int main() {
     std::cout << (palindrome("racecar") ? "Is Palindrome" : "Not Palindrome") << '\n';
     int n = 5;
     std::cout << (evenOdd(n) ? "Odd" : "Even") << '\n';
+
     for (int i = 1; i <= 10; i++) {
-        if (evenOdd(i)) {
+        if (!evenOdd(i)) {
             std::cout << i << " ";
         }
     }
     std::cout << '\n';
+
     return 0;
 }
