@@ -9,6 +9,6 @@ void io() {
 int main() {
     std::cout << "Hello Git" << '\n';
     io();
-    
+    std::cout << "We are in lite version" << '\n';
     return 0;
 }
